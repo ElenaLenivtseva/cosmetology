@@ -1,0 +1,17 @@
+.header-product {
+    margin-top: 141px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+.header-product__wrap {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
+}
+.header-product__img {
+}
+.header-product__link {
+    font-size: 0.875rem;
+    color: #125D70;
+}

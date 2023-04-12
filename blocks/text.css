@@ -1,0 +1,56 @@
+.company-name {
+    color: #FFFF;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    font-family: Gilda Display, serif;
+    font-size: 5.625rem;
+    margin-bottom: 3.5625rem;
+}
+.company-activity {
+    color: #FFFF;
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 0.2em;
+    margin-bottom: 6.6875rem;
+}
+.company-offer {
+    color: #FFFF;
+    font-size: 1.625rem;
+    margin-bottom: 9.75rem;
+}
+.title {
+    font-weight: bold;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+.title--main {
+    margin-bottom: 1.5625rem;
+}
+.title--about {
+    /* margin-bottom: 3.125rem; */
+    margin-bottom: 1.06em;
+}
+.subtitle {
+    font-weight: bold;
+    font-size: 1.5rem;
+    /* margin-bottom: 1.25rem; */
+}
+.subtitle--white {
+    color: #FFFF;
+}
+.main-text {
+    font-size: 1.25rem;
+}
+.main-text--small {
+    font-size: 1rem;
+}
+/* .main-text:not(:last-child) {
+    margin-bottom: 1.25em;
+} */
+.main-text--white {
+    color: #FFFF;
+}
+.main-text--bold {
+    font-weight: bold;
+}

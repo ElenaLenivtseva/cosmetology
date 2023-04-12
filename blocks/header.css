@@ -1,0 +1,124 @@
+.header {
+    display: flex;
+}
+.header__left {
+    padding-top: 70px;
+    padding-left: 100px;
+    background: #125D70;
+    /* width: 55%; */
+    width: calc(1055px + (703 - 1055) * ((100vw - 1920px) / (1280 - 1920)));
+}
+.header__top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 158px;
+}
+.logo {
+    margin-right: 60px;
+    margin-left: -16px;
+    width: 200px;
+}
+.menu {
+}
+.menu__list {
+    display: flex;
+}
+.menu__item {
+    
+}
+.menu__item:not(:last-child) {
+    margin-right: 30px;
+}
+.menu__link {
+    font-size: 1.125rem;
+    color: #FFFFFF;
+}
+.header__right {
+    width: 45%;
+    position: relative;
+    background-color: #292828;
+    /* height: 1080px; */
+}
+.header__slider-rul {
+    width: 62%;
+    height: 66px;
+    background: #FFFFFF;
+    position: absolute;
+    top: 84%;
+    /*left: 19%;
+    */margin-left: 19%;
+    margin-right: 19%;
+    opacity: 0.5;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 3.3%;
+    padding-right: 3.3%;
+}
+.header__slider-thumbs {
+    padding-left: 3.7%;
+    padding-right: 3.7%;
+    display: flex;
+}
+.header__slider-item {
+    width: 40px;
+    height: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background: #000000;
+    opacity: 0.3;
+}
+.header__item-active {
+    background: #000000;
+    opacity: 1;
+}
+.header__slider-item:not(:last-child) {
+    margin-right: 20px;
+}
+.header__img-wrap {
+    width: 100%;
+    height: 100%;
+}
+.header__img {
+    /* height: 100%;
+    max-width: 100%;
+    object-fit: contain; */
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+}
+.header__button {
+    width: 57%;
+    color: #292828;
+    font-weight: bold;
+    background: #FFFFFF;
+    border-radius: 0 150px 150px 0;
+    -webkit-border-radius: 0 150px 150px 0;
+    -moz-border-radius: 0 150px 150px 0;
+    -ms-border-radius: 0 150px 150px 0;
+    -o-border-radius: 0 150px 150px 0;
+    margin-left: -100px;
+    margin-bottom: 100px;
+    font-size: 1.625rem;
+}
+.header__slider-arrow {
+    cursor: pointer;
+}
+.menu--burger {
+    display: none;
+    width: 35px;
+    cursor: pointer;
+}
+.menu__link:hover {
+    border-bottom: 1px dashed white;
+}
+

@@ -1,0 +1,24 @@
+.button {
+    width: 326px;
+    border-radius: 150px;
+    padding: 20px;
+    font-size: 1.625rem;
+    background: #125D70;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    -ms-border-radius: 150px;
+    -o-border-radius: 150px;
+}
+.button:hover {
+    opacity: 0.5;
+    transition: 0.75s;
+    cursor: url('/images/system/cur.png'), pointer;
+    -webkit-transition: 0.75s;
+    -moz-transition: 0.75s;
+    -ms-transition: 0.75s;
+    -o-transition: 0.75s;
+}

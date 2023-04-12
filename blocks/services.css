@@ -1,0 +1,46 @@
+.services {
+    display: flex;
+    padding-left: 100px;
+}
+.services__left {
+    /* width: 54%; */
+    /* width: 60%; */
+    width: calc(1055px + (703 - 1055) * ((100vw - 1920px) / (1280 - 1920)));
+    margin-top: 155px;
+    margin-left: -100px;
+    margin-right: 5.5%;
+}
+.services__title {
+    margin-left: 100px;
+}
+.services__right {
+    /* width: 46%; */
+    width: 48%;
+}
+.services__wrap {
+
+    
+}
+.services__dashed {
+    border-bottom: 3px dashed #125D70;
+    padding-top: 11px;
+    width: 62%;
+}
+.services__button {
+    width: 30%;
+    margin-top: 33.5625rem;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    font-weight: bold;
+}
+.services__img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+.services__dashed-one {
+    /* width: 615px; */
+}
+.services__dashed-two {
+    width: 58.5%;
+}
