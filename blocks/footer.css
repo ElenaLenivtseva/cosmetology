@@ -1,5 +1,6 @@
 .footer {
-    background: #125D70;
+    /* background: #125D70; */
+    background: linear-gradient(274.62deg, #000000 -81.63%, #125D70 115.25%);
 }
 .footer__content {
     display: flex;

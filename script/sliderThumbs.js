@@ -185,7 +185,7 @@ function followEvent (header__imgWrap, buttonPrev, buttonNext, mainimg, prev) {
 // let all = takeAllImages('images/slider/slider__img-item1.png', 'images/slider/slider__main2.png', 'images/slider/slider__main3.png', 'images/slider/slider__main4.png');
 // Важно: картинки не должны быть слишком тяжелыми
 // let all = takeAllImages('images/slider/slider__img-item1.png', 'images/slider/slider__img-item2.png', 'images/slider/slider__img-item3.png', 'images/slider/slider__img-item4.png');
-let all = takeAllImages('/images/header/sale1.jpg', '/images/header/sale2.png', '/images/header/sale3.png');
+let all = takeAllImages('/images/header/sale4.jpg', '/images/header/sale5.jpg', '/images/header/sale6.jpg');
 console.log(all);
 followEvent ('.header__img-wrap', '.header__slider-arrow-left', '.header__slider-arrow-right', '.header__img', '.header__slider-thumbs');
 // followEvent('.header__slider-arrow-left', 'header__slider-arrow-right', 'header__img', 'header__slider-thumbs');

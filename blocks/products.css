@@ -2,7 +2,8 @@
     padding-bottom: 200px;
 }
 .products__name {
-    background: #125D70;
+    /* background: #125D70; */
+    background: linear-gradient(267.71deg, #125D70 60.24%, #000000 158.41%);
     /* width: 850px; */
     /* width: 697px; */
 
